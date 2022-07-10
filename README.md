@@ -5,7 +5,7 @@ docker container cleaning log files periodically with cron logrotate added to Al
 
 run to start up Alfresco instance:
 
-    docker compose up --build -d 
+    docker-compose up --build -d 
 
 Verify Tomcat log files:
 
@@ -79,5 +79,5 @@ see compressed log result
 
 shutdown with
 
-    docker compose down
+    docker-compose down
 
